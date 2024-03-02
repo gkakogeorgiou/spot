@@ -1,0 +1,17 @@
+# Main Packages
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+tqdm==4.64.1
+tensorboard==2.11.2
+protobuf==3.19.6
+absl-py==1.4.0
+six==1.16.0
+einops==0.6.0
+scipy==1.9.1
+timm==0.9.2
+pycocotools==2.0.6
+torchmetrics==0.11.4
+pandas==1.5.3
+# The following requirements are necessary solely for downloading MOVi datasets (download_movi.py)
+# tensorflow==2.11.1
+# tensorflow_datasets==4.9.0
