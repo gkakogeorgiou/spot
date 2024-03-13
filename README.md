@@ -92,7 +92,7 @@ Download pretrained SPOT model on COCO.
 
 <table>
   <tr>
-    <th>mBO^i</th>
+    <th>mBO<sup>i</sup></th>
     <th>mBO^c</th>
     <th>Download</th>
   </tr>
