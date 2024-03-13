@@ -85,6 +85,24 @@ python train_spot_2.py --dataset coco --data_path /path/to/COCO2017 --epochs 50 
 > --which_encoder mae_vitb16 --pretrained_encoder_weights mae_pretrain_vit_base.pth --lr_main 0.0002 --lr_min 0.00004
 
 
+### Pretrained models
+
+Download pretrained SPOT model on COCO.
+
+<table>
+  <tr>
+    <th>mBO^i</th>
+    <th>mBO^c</th>
+    <th>Download</th>
+  </tr>
+  <tr>
+    <td>34.9</td>
+    <td>44.8</td>
+    <td><a href="https://drive.google.com/file/d/1LLcJ3zrSlwSVda7p1UQg3NBRbrpeqBg1/view?usp=sharing">Checkpoint</a></td>
+  </tr>
+</table>
+
+
 ### Evaluation
 
 Evaluate **SPOT** on COCO aggregating all sequence permutations:
@@ -147,6 +165,24 @@ python train_spot.py --dataset voc --data_path /path/to/VOCdevkit/VOC2012 --epoc
 ```bash 
 python train_spot_2.py --dataset voc --data_path /path/to/VOCdevkit/VOC2012 --epochs 560 --num_slots 6 --train_permutations random --eval_permutations standard --teacher_train_permutations random --teacher_eval_permutations random --teacher_checkpoint_path /path/to/logs/spot_teacher_voc/TIMESTAMP/checkpoint.pt.tar --log_path /path/to/logs/spot_voc
 ```
+
+### Pretrained models
+
+Download pretrained SPOT model on PASCAL VOC 2012.
+
+<table>
+  <tr>
+    <th>mBO^i</th>
+    <th>mBO^c</th>
+    <th>Download</th>
+  </tr>
+  <tr>
+    <td>48.6</td>
+    <td>55.7</td>
+    <td><a href="https://drive.google.com/file/d/1o2T0VGbzd1eHvOJECBCCNbQ3s2n_UWyi/view?usp=sharing">Checkpoint</a></td>
+  </tr>
+</table>
+
 
 ### Evaluation
 
