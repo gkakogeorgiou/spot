@@ -18,6 +18,7 @@ Accepted to CVPR 2024.
 - [COCO](#coco)
 	- [Dataset Preparation](#dataset-preparation)
 	- [Training SPOT](#training-spot-two-stage-approach)
+   	- [Pretrained model](#pretrained-model)
 	- [Evaluation](#evaluation)
  	- [Training DINOSAUR baseline](#training-dinosaur-baseline)
 - [PASCAL VOC 2012](#pascal-voc-2012)
@@ -85,7 +86,7 @@ python train_spot_2.py --dataset coco --data_path /path/to/COCO2017 --epochs 50 
 > --which_encoder mae_vitb16 --pretrained_encoder_weights mae_pretrain_vit_base.pth --lr_main 0.0002 --lr_min 0.00004
 
 
-### Pretrained models
+### Pretrained model
 
 Download pretrained SPOT model on COCO.
 
@@ -166,7 +167,7 @@ python train_spot.py --dataset voc --data_path /path/to/VOCdevkit/VOC2012 --epoc
 python train_spot_2.py --dataset voc --data_path /path/to/VOCdevkit/VOC2012 --epochs 560 --num_slots 6 --train_permutations random --eval_permutations standard --teacher_train_permutations random --teacher_eval_permutations random --teacher_checkpoint_path /path/to/logs/spot_teacher_voc/TIMESTAMP/checkpoint.pt.tar --log_path /path/to/logs/spot_voc
 ```
 
-### Pretrained models
+### Pretrained model
 
 Download pretrained SPOT model on PASCAL VOC 2012.
 
