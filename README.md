@@ -4,7 +4,7 @@
 
 ---
 
-Accepted to CVPR 2024.
+[CVPR 2024 Highlight]
 
 <div align="center">
   <img width="100%" alt="SPOT illustration" src=".github/self_training.jpg">
