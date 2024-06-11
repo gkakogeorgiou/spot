@@ -4,7 +4,7 @@
 
 ---
 
-[CVPR 2024 Highlight]
+[CVPR 2024 Highlight][[`paper`](https://openaccess.thecvf.com/content/CVPR2024/html/Kakogeorgiou_SPOT_Self-Training_with_Patch-Order_Permutation_for_Object-Centric_Learning_with_Autoregressive_CVPR_2024_paper.html)][[`arXiv`](https://arxiv.org/abs/2312.00648)]
 
 <div align="center">
   <img width="100%" alt="SPOT illustration" src=".github/self_training.jpg">
@@ -268,11 +268,12 @@ This repository is built using the [SLATE](https://github.com/singhgautam/slate)
 ## Citation
 If you find this repository useful, please consider giving a star :star: and citation:
 ```
-@misc{kakogeorgiou2024spot,
-      title={SPOT: Self-Training with Patch-Order Permutation for Object-Centric Learning with Autoregressive Transformers}, 
-      author={Ioannis Kakogeorgiou and Spyros Gidaris and Konstantinos Karantzalos and Nikos Komodakis},
-      url={https://arxiv.org/abs/2312.00648},
-      journal={arXiv.org},
-      year={2023}
-      }
+@InProceedings{Kakogeorgiou2024SPOT,
+    author    = {Kakogeorgiou, Ioannis and Gidaris, Spyros and Karantzalos, Konstantinos and Komodakis, Nikos},
+    title     = {SPOT: Self-Training with Patch-Order Permutation for Object-Centric Learning with Autoregressive Transformers},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {22776-22786}
+}
 ```
